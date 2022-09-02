@@ -1,13 +1,13 @@
-<!--list_items/templates/list_items/list_items.html-->
+<!--list_items/templates/list_items/list_items_list.html-->
 
-{% for list_item in list_items %}
+{% for list_item in list_items_list %}
 <article>
     <h2 class="{{list_item.date_created|date:'1'}}">
-        {{ list_items.date_created|date:'Y-m-d-H:i' }}
+        {{ list_item.date_created|date:'Y-m-d-H:i' }}
     </h2>
     <h3>
-        <a href="{% url 'list_items_detail' list_items.id %}">
-            {{ list_items.title }}
+        <a href="{% url 'list_items-detail' list_item.id %}">
+            {{ list_item.groc_item }}
         </a>
     </h3>
 </article>

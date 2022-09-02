@@ -8,11 +8,11 @@ urlpatterns = [
     path(
         "",
         views.List_itemsListView.as_view(),
-        name="list_items_list"
+        name="list_items-list"
     ),
     path(
         "list_items/<int:pk>",
         views.List_itemsDetailView.as_view(),
-        name="list_items_detail"
+        name="list_items-detail"
     ),
 ]
