@@ -1,0 +1,14 @@
+<!--list_items/templates/list_items/list_items.html-->
+
+{% for list_item in list_items %}
+    <article>
+        <h2 class="{{list_items.date_created|date:'1'}}">
+            {{ list_item.date_created|date:'Y-m-d-H:i' }}
+        </h2>
+        <h3>
+            <a href="{% url 'list_items_detail' list_items.id %}">
+                {{ list_item.title }}
+            </a>
+        </h3>
+    </article>
+{% endfor %}
