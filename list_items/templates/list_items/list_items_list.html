@@ -1,14 +1,15 @@
 <!--list_items/templates/list_items/list_items_list.html-->
 
 {% for list_item in list_items_list %}
-<article>
-    <h2 class="{{list_item.date_created|date:'1'}}">
-        {{ list_item.date_created|date:'Y-m-d-H:i' }}
-    </h2>
-    <h3>
+<article>    
+    <h4>
         <a href="{% url 'list_items-detail' list_item.id %}">
             {{ list_item.groc_item }}
         </a>
-    </h3>
+    </h4>
+    <h6 class="{{list_item.date_created|date:'1'}}">
+        added to list: {{ list_item.date_created|date:'H:i-m-d-Y' }}
+    </h6>
+
 </article>
 {% endfor %}
