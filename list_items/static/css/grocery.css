@@ -1,4 +1,4 @@
-/* static css for grocery list items */
+/*css for grocery list items */
 
 * {
     box-sizing: content-box;
@@ -66,9 +66,8 @@ h6 {
     vertical-align: top;
     color:aqua;
     /* background-color:indianred; */
-    font-size: x-small;
+    font-size: xx-small;
 }
-
 
 
 .mark {
