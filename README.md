@@ -15,3 +15,5 @@ This is actually the second iteration of this project, as the first was bogged d
 3. SQLite3 for database
 4. Python for all backend Django work
 5. Git Hub
+6. Docker superuser admin site 
+7.pytest and unnitest

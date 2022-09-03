@@ -1,0 +1,19 @@
+<!-- list_items/templates/list_items/entry_form.html -->
+
+{% extends "list_items/base.html" %}
+{% block content %}
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Save">
+    </form>
+    {% if list_items %}
+        <a href="{% url 'list_items-detail' list_items.id %}">
+            <button>Cancel</button>
+        </a>
+    {% else %}
+        <a href="{% url 'list_items-list' %}">
+            <button>Cancel</button>
+        </a>
+    {% endif %}
+{% endblock %}

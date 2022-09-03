@@ -1,0 +1,16 @@
+<!-- list_items/templates/list_items/entry_confirm_delete.html -->
+
+{% extends "list_items/base.html" %}
+{% block content %}
+    <form method="post">{% csrf_token %}
+        <p>
+            Are you sure you want to delete
+            <em>"{{ list_items.title }}"</em>
+            created on {{ list_items.date_created|date:'Y-m-d' }}?
+        </p>
+        <input type="submit" value="Confirm">
+    </form>
+    <a href="{% url 'list_items-detail' list_items.id %}">
+        <button>Cancel</button>
+    </a>
+{% endblock %}
