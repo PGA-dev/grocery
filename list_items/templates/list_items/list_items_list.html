@@ -2,6 +2,11 @@
 {% extends "list_items/base.html" %}
 
 {% block content %}
+<article>
+    <h2 class="mark">{% now "H:i-m-d-Y" %}</em></h2>
+    <a href="{% url 'list_items-create' %}"><button>Add new grocery item</button></a>
+</article>
+
     {% for list_item in list_items_list %}
         <article>    
             <h4>

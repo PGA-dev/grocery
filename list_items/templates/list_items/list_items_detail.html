@@ -2,17 +2,21 @@
 {% extends "list_items/base.html" %}
 
 {% block content %}
-    <article>
-        <h3><span id="grocitemspan">Item: </span>{{ list_items.groc_item }}</h3>
-        <br>
-        <h4><span id="itemspan">Item Price: </span> ${{ list_items.item_price }}</h4>
-        <br>
-        <h5><span id="budgetspan">Item Budget allotment: </span>${{ list_items.budget }}</h5>
-        <br>
-        <p><span id="notespan">Notes:</span><br>
-            {{ list_items.notes }}
-        </p>
-        <br><br>
-        <h6><span id="datespan">Created:</span>{{ list_items.date_created|date:'H:i-m-d-Y' }}</h6>
-    </article>
+<article>
+    <h3><span id="grocitemspan">Item: </span>{{ list_items.groc_item }}</h3>
+    <br>
+    <h4><span id="itemspan">Item Price: </span> ${{ list_items.item_price }}</h4>
+    <br>
+    <h5><span id="budgetspan">Item Budget allotment: </span>${{ list_items.budget }}</h5>
+    <br>
+    <p><span id="notespan">Notes:</span><br>
+        {{ list_items.notes }}
+    </p>
+    <br><br>
+    <h6><span id="datespan">Created:</span>{{ list_items.date_created|date:'H:i-m-d-Y' }}</h6>
+</article>
+<p>
+    <a href="{% url 'list_items-update' list_items.id %}">✍️ Edit</a>
+    <a href="{% url 'list_items-delete' list_items.id %}">⛔ Delete</a>
+</p>
 {% endblock %}
