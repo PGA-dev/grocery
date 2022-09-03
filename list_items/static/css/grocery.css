@@ -152,11 +152,6 @@ input[type="submit"] {
     background-color: cadetblue;
 }
 
-button, 
-input:hover {
-    opacity: 0.7;
-    color: chartreuse;
-}
 
 #grocitemspan {
     color: aliceblue
