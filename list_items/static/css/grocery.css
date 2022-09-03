@@ -21,13 +21,13 @@ a {
 
 a:hover {
     opacity: 0.7;
-    color:chartreuse;
+    color: chartreuse;
 }
 
 h1 {
     font-size: 3.8em;
-    color:purple;
-    font-family:cursive;
+    color: purple;
+    font-family: cursive;
 }
 
 h1 a {
@@ -41,20 +41,21 @@ h3 {
     display: inline-block;
     padding: 0.5rem 1rem;
     vertical-align: top;
-    font-family:cursive;
-    color:aqua;
+    font-family: cursive;
+    color: aqua;
     /* background-color: rgb(161, 127, 255); */
     font-size: large;
 }
 
-h4, h5 {
+h4,
+h5 {
     font-size: 1.4em;
     margin: 0;
     display: inline-block;
     padding: 0.5rem 1rem;
     vertical-align: top;
-    font-family:cursive;
-    color:aqua;
+    font-family: cursive;
+    color: aqua;
     /*background-color: rgb(161, 127, 255);*/
     font-size: large;
 }
@@ -64,7 +65,7 @@ h6 {
     display: inline-block;
     padding: 0.5rem 1rem;
     vertical-align: top;
-    color:aqua;
+    color: aqua;
     /* background-color:indianred; */
     font-size: xx-small;
 }
@@ -73,6 +74,7 @@ h6 {
 .mark {
     background-color: gainsboro;
 }
+
 .mark a {
     text-decoration: none;
 }
@@ -86,7 +88,7 @@ p {
     padding-left: 1rem;
     line-height: 1.3em;
     max-width: 36rem;
-    color:aquamarine;
+    color: aquamarine;
 }
 
 em {
@@ -125,24 +127,27 @@ input[type="submit"] {
     font-weight: bold;
     min-width: 8rem;
 }
+
 #grocitemspan {
-    color:aliceblue
+    color: aliceblue
 }
 
 #itemspan {
-    color:aliceblue
+    color: aliceblue
 }
+
 #budgetspan {
-    color:aliceblue
+    color: aliceblue
 }
+
 #notespan {
-    color:aliceblue;
+    color: aliceblue;
 }
 
 #datespan {
-    color:aliceblue;
+    color: aliceblue;
 }
 
 #datelistspan {
-    color:aliceblue;
+    color: aliceblue;
 }

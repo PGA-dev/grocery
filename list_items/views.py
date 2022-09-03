@@ -37,7 +37,7 @@ class List_itemsUpdateView(SuccessMessageMixin, UpdateView):
     def get_success_url(self):
         return reverse_lazy(
             "list_items-detail",
-            kwargs={"pk": self.list_items.id}
+            kwargs={"pk": self.object.pk}
         )
 
 class List_itemsDeleteView(DeleteView):
