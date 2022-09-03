@@ -1,9 +1,12 @@
 <!-- list_items/templates/list_items/list_items_detail.html -->
+{% extends "list_items/base.html" %}
 
-<article>
-    <h2>{{ list_items.date_created|date:'Y-m-d H:i' }}</h2>
-    <h3>{{ list_items.groc_item }}</h3>
-    <h4>{{ list_items.item_price }}</h4>
-    <h5>{{ list_items.budget }}</h5>
-    <p>{{ list_items.notes }}</p>
-</article>
+{% block content %}
+    <article>
+        <h3>{{ list_items.groc_item }}</h3>
+        <h4>{{ list_items.item_price }}</h4>
+        <h5>{{ list_items.budget }}</h5>
+        <h6>{{ list_items.date_created|date:'Y-m-d H:i' }}</h6>
+        <p>{{ list_items.notes }}</p>
+    </article>
+{% endblock %}
