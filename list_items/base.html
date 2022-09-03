@@ -1,0 +1,18 @@
+<!--Template base for list_items-->
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="{ %'css/grocery.css'% }">
+</head>
+
+<body>
+    <h1><a href="/">My list entry</a></h1>
+    {% block content %}{% endblock %}
+</body>
+
+</html>
