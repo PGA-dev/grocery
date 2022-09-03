@@ -13,7 +13,7 @@ from django.views.generic import (
 
 from .models import List_items
 
-# Create your views here.
+# Basic frontend views.
 class List_itemsListView(ListView):
     model = List_items
     queryset = List_items.objects.all().order_by("-date_created")
