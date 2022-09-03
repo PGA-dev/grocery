@@ -12,6 +12,17 @@
 
 <body>
     <h1><a href="/">Grocery List</a></h1>
+
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li class="message">
+                    {{ message }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
     {% block content %}{% endblock %}
 </body>
 
