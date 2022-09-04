@@ -3,7 +3,8 @@
 
 {% block content %}
 <article>
-    <h2 class="mark">Current Time: {% now "H:i-m-d-Y" %}</em></h2>
+    <h9 class="mark">{% now "H:i-m-d-Y" %}</em></h9>
+    <br>
     <a href="{% url 'list_items-create' %}"><button>Add new grocery item</button></a>
 </article>
 
