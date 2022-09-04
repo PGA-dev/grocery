@@ -10,11 +10,14 @@
 .messages {
     padding: 0;
     list-style: none;
+    color: aquamarine;
+    background-color:black;
 }
 
 .message {
     width: 100%;
-    background: lightblue;
+    background-color:black;
+    color: aquamarine;
     padding: 1rem;
     text-align: center;
     margin: 1rem 0;
