@@ -7,14 +7,14 @@
 
 /* Messages */
 
-.messages {
+.scmess {
     padding: 0;
     list-style: none;
     color: aquamarine;
     background-color:black;
 }
 
-.message {
+.scmes {
     width: 100%;
     background-color:black;
     color: aquamarine;
@@ -23,9 +23,6 @@
     margin: 1rem 0;
 }
 
-/* button {
-
-} */
 
 body {
     background-color: black;
@@ -93,12 +90,12 @@ h6 {
 }
 
 
-.mark {
+.dat {
     background-color:black;
     color:aqua;
 }
 
-.mark a {
+.dat a {
     text-decoration: none;
 }
 
@@ -176,6 +173,10 @@ input[type="submit"] {
     color: aliceblue;
 }
 
+#prilistspan{
+    color:aliceblue;
+}
+
 #datelistspan {
-    color: aliceblue;
+    color:aqua;
 }
