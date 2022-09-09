@@ -23,10 +23,11 @@ The app creates the opportunity to wed a fully functional grocery list program w
 1. Docker containers and imaging
 2. Django (using native Django html templates -- all css and html are from scratch or customized from templates)
 3. SQLite3 for database
-4. Python for all backend Django work
-5. Git Hub for source control and versioning
-6. Docker superuser admin site 
-7.pytest and unnitest to keep the code honest
+4. Django python driven ORM for data migrations
+5. Python for additional Django work
+6. Git Hub for source control and versioning
+7. Docker superuser admin site 
+8.pytest and unnitest to keep the code honest
 
 
 ## Future Design and Implimentation
