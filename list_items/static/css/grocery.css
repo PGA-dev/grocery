@@ -11,12 +11,12 @@
     padding: 0;
     list-style: none;
     color: aquamarine;
-    background-color:black;
+    background-color: black;
 }
 
 .scmes {
     width: 100%;
-    background-color:black;
+    background-color: black;
     color: aquamarine;
     padding: 1rem;
     text-align: center;
@@ -62,7 +62,6 @@ h3 {
     vertical-align: top;
     font-family: cursive;
     color: aqua;
-    /* background-color: rgb(161, 127, 255); */
     font-size: large;
 }
 
@@ -75,7 +74,6 @@ h5 {
     vertical-align: top;
     font-family: cursive;
     color: aqua;
-    /*background-color: rgb(161, 127, 255);*/
     font-size: large;
 }
 
@@ -85,14 +83,13 @@ h6 {
     padding: 0.5rem 1rem;
     vertical-align: top;
     color: aqua;
-    /* background-color:indianred; */
     font-size: xx-small;
 }
 
 
 .dat {
-    background-color:black;
-    color:aqua;
+    background-color: black;
+    color: aliceblue;
 }
 
 .dat a {
@@ -108,7 +105,7 @@ p {
     padding-left: 1rem;
     line-height: 1.3em;
     max-width: 36rem;
-    color: aquamarine;
+    color: aqua;
 }
 
 em {
@@ -128,8 +125,8 @@ input {
     font-size: inherit;
     min-height: 2.5em;
     padding: 0 1rem;
-    color:aliceblue;
-    background-color:darkcyan;
+    color: aliceblue;
+    background-color: darkcyan;
 }
 
 input[type="text"],
@@ -148,21 +145,21 @@ input[type="submit"] {
     cursor: pointer;
     font-weight: bold;
     min-width: 8rem;
-    color:aliceblue;
+    color: aliceblue;
     background-color: cadetblue;
 }
 
 
 #grocitemspan {
-    color: aliceblue
+    color: aliceblue;
 }
 
 #itemspan {
-    color: aliceblue
+    color: aliceblue;
 }
 
 #budgetspan {
-    color: aliceblue
+    color: aliceblue;
 }
 
 #notespan {
@@ -173,10 +170,10 @@ input[type="submit"] {
     color: aliceblue;
 }
 
-#prilistspan{
-    color:aliceblue;
+#prilistspan {
+    color: aliceblue;
 }
 
 #datelistspan {
-    color:aqua;
+    color: aliceblue;
 }

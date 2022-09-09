@@ -3,8 +3,6 @@
 
 {% block content %}
 <article>
-    <h9 class="dat">{% now "H:i-m-d-Y" %}</em></h9>
-    <br><br>
     <a href="{% url 'list_items-create' %}"><button>Add new grocery item</button></a>
 </article>
 
@@ -18,7 +16,8 @@
             <h4 class="{{list_item.item_price}}">
                 <span id="prilistspan">Price: </span>${{ list_item.item_price}}
             </h4>
-
         </article>
     {% endfor %}
+    <br><br>
+    <h9 class="dat">{% now "H:i-m-d-Y" %}</em></h9>
 {% endblock %}
