@@ -10,14 +10,14 @@
 .scmess {
     padding: 0;
     list-style: none;
-    color: aliceblue;
+    color:aquamarine;
     background-color: black;
 }
 
 .scmes {
     width: 100%;
     background-color: black;
-    color: aliceblue;
+    color:aquamarine;
     padding: 1rem;
     text-align: center;
     margin: 1rem 0;
@@ -67,13 +67,14 @@ h3 {
 
 h4,
 h5 {
+    color:aqua;
     font-size: 1.4em;
     margin: 0;
     display: inline-block;
     padding: 0.5rem 1rem;
     vertical-align: top;
     font-family: cursive;
-    color: aqua;
+
     font-size: large;
 }
 
@@ -89,7 +90,7 @@ h6 {
 
 .dat {
     background-color: black;
-    color: aliceblue;
+    color:aqua;
 }
 
 .dat a {

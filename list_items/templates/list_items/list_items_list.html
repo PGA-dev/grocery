@@ -13,11 +13,11 @@
                     {{ list_item.groc_item }}
                 </a>
             </h4>
-            <h4 class="{{list_item.item_price}}">
+            <h4  class="{{list_item.item_price}}">
                 <span id="prilistspan">Price: </span>${{ list_item.item_price}}
             </h4>
         </article>
     {% endfor %}
     <br><br>
-    <h9 class="dat">{% now "H:i-m-d-Y" %}</em></h9>
+    <h9 class="dat">{% now "m-d-Y-H:i" %}</em></h9>
 {% endblock %}

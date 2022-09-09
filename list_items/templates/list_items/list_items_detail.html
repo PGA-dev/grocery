@@ -13,7 +13,7 @@
         {{ list_items.notes }}
     </p>
     <br><br>
-    <h6><span id="datespan">Created:</span>{{ list_items.date_created|date:'H:i-m-d-Y' }}</h6>
+    <h6><span id="datespan">Created:</span>{{ list_items.date_created|date:'m-d-Y-H:i' }}</h6>
 </article>
 <p>
     <a href="{% url 'list_items-update' list_items.id %}">✍️ Edit</a>
