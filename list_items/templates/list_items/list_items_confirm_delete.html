@@ -5,7 +5,7 @@
     <form method="post">{% csrf_token %}
         <p>
             Are you sure you want to delete
-            <em>"{{ list_items.title }}"</em>
+            <em><i style="color:aliceblue">{{ list_items.groc_item}}</i></em>
             created on {{ list_items.date_created|date:'Y-m-d' }}?
         </p>
         <input type="submit" value="Confirm">
