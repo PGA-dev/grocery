@@ -7,17 +7,18 @@
 
 /* Messages */
 
-.scmess {
+#scmess {
     padding: 0;
     list-style: none;
-    color:aquamarine;
+    color:aliceblue;
     background-color: black;
 }
 
-.scmes {
+#scmes {
+    font-size:x-large;
     width: 100%;
     background-color: black;
-    color:aquamarine;
+    color:aliceblue;
     padding: 1rem;
     text-align: center;
     margin: 1rem 0;
@@ -67,7 +68,7 @@ h3 {
 
 h4,
 h5 {
-    color:aqua;
+    color: aqua;
     font-size: 1.4em;
     margin: 0;
     display: inline-block;
@@ -88,14 +89,18 @@ h6 {
 }
 
 
-.dat {
+#dat {
+    background-color: black;
+    color:aliceblue;
+}
+
+#name{
     background-color: black;
     color:aqua;
 }
-
-.dat a {
+/* .dat a {
     text-decoration: none;
-}
+} */
 
 article {
     margin-bottom: 0.5rem;

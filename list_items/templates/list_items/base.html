@@ -14,9 +14,9 @@
     <h1><a href="/">Grocery List</a></h1>
 
     {% if messages %}
-        <ul class="scmess">
+        <ul id="scmess">
             {% for message in messages %}
-                <li class="scmes">
+                <li id="scmes">
                     {{ message }}
                 </li>
             {% endfor %}
