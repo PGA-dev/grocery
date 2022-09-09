@@ -27,12 +27,12 @@ class List_itemsCreateView(SuccessMessageMixin, CreateView):
     model = List_items
     fields = ["groc_item", "notes", "item_price", "budget"]
     success_url = reverse_lazy("list_items-list")
-    success_message = "Your new list item is created!"
+    success_message = "Your new grocery list item is created!"
 
 class List_itemsUpdateView(SuccessMessageMixin, UpdateView):
     model = List_items
     fields = ["groc_item", "notes", "item_price", "budget"]
-    success_message = "Your list item has been updated!"
+    success_message = "Your grocery list item has been updated!"
 
     def get_success_url(self):
         return reverse_lazy(
@@ -43,7 +43,7 @@ class List_itemsUpdateView(SuccessMessageMixin, UpdateView):
 class List_itemsDeleteView(DeleteView):
     model = List_items
     success_url = reverse_lazy("list_items-list")
-    success_message = "Your entry was deleted!"
+    success_message = "Your grocery item was deleted!"
 
     def delete(self, request, *args, **kwargs):
             messages.success(self.request, self.success_message)
