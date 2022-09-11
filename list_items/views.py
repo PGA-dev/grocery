@@ -1,3 +1,4 @@
+from winreg import QueryValue, QueryValueEx
 from django.contrib import messages
 from django.contrib.messages.views import SuccessMessageMixin
 
@@ -17,6 +18,7 @@ from .models import List_items
 class List_itemsListView(ListView):
     model = List_items
     queryset = List_items.objects.all().order_by("-date_created")
+
 
 class List_itemsDetailView(DetailView):
     model = List_items
