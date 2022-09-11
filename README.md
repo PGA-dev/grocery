@@ -7,7 +7,7 @@
 ### Origins
 The impetus of the project started as an attempt to create a grocery list app, similar to ones I use regularly, with a twist: the budget element that I could never find in the other apps. The true realization of the project will obviously be in the mobile app department, so during the React Native section of NuCamp's Full Stack program I intend to stretch this into a more useful app.
 
-This is actually the second iteration of this project, as the first was bogged down with way to much feeder code from NuCamp. I re-wrote most of the apps from scratch and used a few instructionals from YouTube authors, Real Python, GforGeeks, Django page examples in addition to the NuCamp instructional material to help get the basic pathing and end-point/URL/view structure down. I adapted most of the basic Django templates and wote my css from fairly simple front end design strategies, using Django script over existing javascripting that I am used to; the front end was a bit of a learning experiment, to get Django's framework learned. In the future it may be more useful to override the templates that Django uses natively and import a front end.
+This is actually the second iteration of this project, as the first was bogged down with way to much feeder code from NuCamp. I re-wrote most of the apps from scratch and used Django page examples, mostly from the Django site, and some web lookups, in addition to the NuCamp instructional material to help get the basic pathing and end-point/URL/view structure down. I adapted most of the basic Django templates and wote my css from fairly simple front end design strategies, using Django script over existing javascripting that I am used to; the front end was a bit of a learning experiment, to get Django's framework learned. In the future it may be more useful to override the templates that Django uses natively and import a front end.
 
 ### Overview
 The app creates the opportunity to wed a fully functional grocery list program with a system of budget notes and text based notes. Very simple to use, it improves upon the functionality of a regular grocery list as it also logs the time you add each item, so there is no confusion week to week. 
@@ -27,7 +27,7 @@ The app creates the opportunity to wed a fully functional grocery list program w
 5. Python for additional Django work
 6. Git Hub for source control and versioning
 7. Docker superuser admin site 
-8.pytest and unnitest to keep the code honest
+8. pytest and unnitest to keep the code honest
 
 
 ## Future Design and Implimentation
