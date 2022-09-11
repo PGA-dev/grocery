@@ -11,6 +11,9 @@ This is actually the second iteration of this project, as the first was bogged d
 
 ### Overview
 The app creates the opportunity to wed a fully functional grocery list program with a system of budget notes and text based notes. Very simple to use, it improves upon the functionality of a regular grocery list as it also logs the time you add each item, so there is no confusion week to week. 
+
+## IT WORKS!!!
+One of my main points of pride was that after I goofed my first version of the project I did get a working app that functions in the way I had intended! Though there is much room for improvement, I did not have to show it late, or show it using the site admin (as I was sure I would have to do), I learned the template system enough to have a working front end!!!
 #### Basic Functionality:
 * Add Grocery items
 * Update Grocery items
