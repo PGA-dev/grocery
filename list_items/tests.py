@@ -1,13 +1,5 @@
-from django.test import TestCase
-from django.urls import reverse
 import pytest
 from  list_items.models import List_items
-
-#**********tests for acccess and routing**********
-
-# def test_homepage_access():
-#     url = reverse('list_items-list')
-#     assert url == "/"
 
 
 #*****************tests for CRUD******************
