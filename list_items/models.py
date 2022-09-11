@@ -9,8 +9,9 @@ class List_items(models.Model):
     budget = models.DecimalField(max_digits=8, decimal_places=2)
     date_created = models.DateTimeField(default=timezone.now)
 
-    def __repr__(self):
+    def __str__(self):
         return self.groc_item
+
 
     class Meta:
         verbose_name_plural = "ListItems"
