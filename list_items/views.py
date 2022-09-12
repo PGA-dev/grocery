@@ -16,7 +16,7 @@ from .models import List_items
 # Basic frontend views.
 class List_itemsListView(ListView):
     model = List_items
-    queryset = List_items.objects.all().order_by("-date_created")
+    queryset = List_items.objects.all().order_by("groc_item").values()
 
 
 class List_itemsDetailView(DetailView):
